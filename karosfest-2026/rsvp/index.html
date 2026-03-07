@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>RSVP</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-neutral-50 text-neutral-800 font-sans">
+
+<section class="min-h-screen flex items-center justify-center px-6 py-12">
+
+<div class="w-full max-w-md">
+
+<h1 class="text-3xl font-light text-center mb-8">
+RSVP
+</h1>
+
+<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-6">
+
+<!-- Name -->
+<div>
+<label class="block text-sm mb-2">Name</label>
+<input type="text" name="name" required
+class="w-full border border-neutral-300 rounded-lg px-4 py-3 text-base focus:outline-none focus:border-neutral-600">
+</div>
+
+<!-- Email -->
+<div>
+<label class="block text-sm mb-2">Email</label>
+<input type="email" name="email"
+class="w-full border border-neutral-300 rounded-lg px-4 py-3 text-base focus:outline-none focus:border-neutral-600">
+</div>
+
+<!-- Attendance -->
+<div>
+<label class="block text-sm mb-2">Attendance</label>
+
+<label class="flex items-center space-x-3 py-2">
+<input type="radio" name="attendance" value="Yes" required>
+<span>Gladly attending</span>
+</label>
+
+<label class="flex items-center space-x-3 py-2">
+<input type="radio" name="attendance" value="No">
+<span>Sadly cannot attend</span>
+</label>
+
+</div>
+
+<!-- Guests -->
+<div>
+<label class="block text-sm mb-2">Number of Guests</label>
+<input type="number" name="guests" min="1" max="5"
+class="w-full border border-neutral-300 rounded-lg px-4 py-3 text-base focus:outline-none focus:border-neutral-600">
+</div>
+
+<!-- Hotel -->
+<div>
+<label class="block text-sm mb-2">Hotel Needed?</label>
+
+<label class="flex items-center space-x-3 py-2">
+<input type="checkbox" name="hotel" value="Yes">
+<span>I would like hotel recommendations</span>
+</label>
+
+</div>
+
+<!-- Notes -->
+<div>
+<label class="block text-sm mb-2">Notes</label>
+<textarea name="message" rows="4"
+class="w-full border border-neutral-300 rounded-lg px-4 py-3 text-base focus:outline-none focus:border-neutral-600"></textarea>
+</div>
+
+<!-- Submit -->
+<button
+class="w-full bg-neutral-800 text-white py-3 rounded-full text-base hover:bg-black transition">
+Send RSVP
+</button>
+
+</form>
+
+<div class="text-center mt-8">
+<a href="/event-2026/" class="text-sm text-neutral-500 hover:underline">
+Back to event page
+</a>
+</div>
+
+</div>
+
+</section>
+
+</body>
+</html>
