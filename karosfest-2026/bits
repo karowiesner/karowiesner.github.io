@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="UTF-8">
+  <title>Private Event</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    #protected-content { display: none; }
+  </style>
+</head>
+
+<body class="bg-neutral-50 text-neutral-800 font-sans">
+
+  <!-- Password Screen -->
+  <div id="password-screen" class="min-h-screen flex items-center justify-center bg-white px-6">
+    <div class="text-center max-w-sm w-full">
+      <h1 class="text-2xl mb-6 font-light">Private Event</h1>
+      <input id="password-input"
+             type="password"
+             placeholder="Enter password"
+             class="border px-4 py-2 w-full mb-4 rounded">
+      <button onclick="checkPassword()"
+              class="bg-neutral-800 text-white px-6 py-2 rounded w-full">
+        Enter
+      </button>
+      <p id="error-message" class="text-red-500 text-sm mt-3 hidden">
+        Incorrect password
+      </p>
+    </div>
+  </div>
+
+  <!-- Protected Content -->
+  <div id="protected-content">
+
+    <section class="min-h-[70vh] flex flex-col justify-center items-center text-center px-6 bg-white">
+      <h1 class="text-4xl md:text-6xl font-light mb-6">
+        Birthday Celebration
+      </h1>
+      <p class="text-lg text-neutral-600">
+        June 26 - June 28, 2026
+      </p>
+    </section>
+
+    <!-- Add the rest of your sections below here -->
+
+     <!-- RSVP Section -->
+  <section class="py-16 px-6 border-t text-center">
+    <h2 class="text-2xl font-medium mb-6">RSVP</h2>
+    <p class="text-neutral-600 mb-6">
+      Kindly confirm your attendance by March 30, 2026.
+    </p>
+    <a href="mailto:your@email.com"
+       class="inline-block border border-neutral-800 px-6 py-3 rounded-full hover:bg-neutral-800 hover:text-white transition">
+      Confirm Attendance
+    </a>
+  </section>
+    
+     <!-- Time Section -->
+  <section class="py-16 px-6 border-t">
+    <div class="max-w-2xl mx-auto text-center">
+      <h2 class="text-2xl font-medium mb-4">Program</h2>
+      <p class="text-neutral-600">
+        Friday<br>
+        18:00 – Welcome Drinks, Music from DJ Mietzetante<br>
+        19:00 – Buffet Dinner<br>
+        open ended
+      </p>
+    </div>
+  </section>
+
+    <!-- Location Section -->
+  <section class="py-16 px-6 border-t bg-white">
+    <div class="max-w-2xl mx-auto text-center">
+      <h2 class="text-2xl font-medium mb-4">Location</h2>
+      <p class="text-neutral-600">
+        The Garden of Karl-Marx-Str.32<br>
+        Potsdam Babelsberg
+      </p>
+    </div>
+  </section>
+
+     <!-- Programme Section -->
+  <section class="py-16 px-6 border-t bg-white">
+    <div class="max-w-2xl mx-auto text-center">
+      <h2 class="text-2xl font-medium mb-8">Programme</h2>
+
+      <div class="space-y-4 text-neutral-600">
+        <p>4:00 PM – Arrival & Welcome Drinks</p>
+        <p>5:30 PM – Speeches</p>
+        <p>6:00 PM – Dinner</p>
+        <p>8:00 PM – Cake Ceremony</p>
+        <p>9:00 PM – Music & Dancing</p>
+      </div>
+    </div>
+  </section>
+
+    <!-- Hotel Recommendations -->
+  <section class="py-16 px-6 border-t">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-2xl font-medium mb-8">Hotel Recommendations</h2>
+
+      <div class="space-y-6 text-neutral-600">
+        <div>
+          <p class="font-medium">Grand Hotel</p>
+          <p>5-minute drive from venue</p>
+        </div>
+
+        <div>
+          <p class="font-medium">City Boutique Hotel</p>
+          <p>Walking distance to restaurants</p>
+        </div>
+
+        <div>
+          <p class="font-medium">Riverside Suites</p>
+          <p>Quiet and scenic location</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  </div>
+
+  <script>
+    function checkPassword() {
+      const password = "sauerteigbrot";  // CHANGE THIS
+      const input = document.getElementById("password-input").value;
+
+      if (input === password) {
+        document.getElementById("password-screen").style.display = "none";
+        document.getElementById("protected-content").style.display = "block";
+      } else {
+        document.getElementById("error-message").classList.remove("hidden");
+      }
+    }
+  </script> 
+
+
+  <!-- Footer -->
+  <footer class="py-10 text-center text-sm text-neutral-400">
+    Karo's Fest 2026
+  </footer>
+
+</body>
+</html>
