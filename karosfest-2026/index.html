@@ -7,9 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <style>
-    #protected-content { display: none; }
-  </style>
+  
 </head>
 
 <body class="bg-neutral-50 text-neutral-800 font-sans">
@@ -94,22 +92,6 @@
   </section>
 
 
-
-
-
-  <script>
-    function checkPassword() {
-      const password = "sauerteigbrot";  // CHANGE THIS
-      const input = document.getElementById("password-input").value;
-
-      if (input === password) {
-        document.getElementById("password-screen").style.display = "none";
-        document.getElementById("protected-content").style.display = "block";
-      } else {
-        document.getElementById("error-message").classList.remove("hidden");
-      }
-    }
-  </script> 
 
 
   <!-- Footer -->
