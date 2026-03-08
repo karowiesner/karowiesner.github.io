@@ -83,12 +83,33 @@ class="w-full border border-neutral-300 rounded-lg px-4 py-3 text-base focus:out
 </div>
 
 <!-- Guests -->
-<div class="flex flex-col>
-<label class="block text-sm mb-2">Number of Guests</label>
-<input type="number" name="guests" min="1" max="5"
-class="w-full border border-neutral-300 rounded-lg px-4 py-3 text-base focus:outline-none focus:border-neutral-600">
+<div class="flex flex-col">
+
+<label class="text-sm mb-3">Guests</label>
+
+<div class="flex flex-col gap-2">
+
+<label class="flex items-center gap-3 py-2">
+<input type="radio" name="guest_option" value="alone">
+<span>Coming on my own</span>
+</label>
+
+<label class="flex items-center gap-3 py-2">
+<input type="radio" name="guest_option" value="bringing_people">
+<span>Bringing the following people</span>
+</label>
+
 </div>
 
+<textarea
+name="guest_names"
+rows="3"
+placeholder="Names of additional guests"
+class="mt-3 border border-neutral-300 rounded-lg px-4 py-3 text-base focus:outline-none focus:border-neutral-600">
+</textarea>
+
+</div>
+  
 <!-- Hotel 
 <div>
 <label class="block text-sm mb-2">Hotel Needed?</label>
