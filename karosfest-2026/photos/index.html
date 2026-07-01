@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <style>
+  #protected-content {
+    display: none;
+  }
+</style>
+    
 <meta charset="UTF-8">
 <title>Photos</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,6 +27,40 @@ href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery-bundle.mi
 </head>
 
 <body class="bg-neutral-50 text-neutral-800 font-sans">
+
+<!-- Password Screen -->
+<div id="password-screen"
+     class="min-h-screen flex items-center justify-center bg-white px-6">
+
+  <div class="text-center max-w-sm w-full">
+
+    <h1 class="text-2xl mb-6 font-light">
+      Photo Gallery
+    </h1>
+
+    <input
+      id="password-input"
+      type="password"
+      placeholder="Enter password"
+      class="border px-4 py-3 w-full mb-4 rounded">
+
+    <button
+      onclick="checkPassword()"
+      class="bg-neutral-800 text-white px-6 py-3 rounded w-full">
+      Enter
+    </button>
+
+    <p id="error-message"
+       class="text-red-500 text-sm mt-3 hidden">
+      Incorrect password
+    </p>
+
+  </div>
+
+</div>
+
+<!-- Protected Content -->
+<div id="protected-content">
 
 <section class="py-16 px-6">
 
@@ -76,5 +117,30 @@ lightGallery(document.getElementById('lightgallery'), {
 });
 </script>
 
+    </div>
+
+<script>
+function checkPassword() {
+
+  const password = "KaroFest2026";   // CHANGE THIS
+
+  const input =
+    document.getElementById("password-input").value;
+
+  if (input === password) {
+
+    document.getElementById("password-screen").style.display = "none";
+
+    document.getElementById("protected-content").style.display = "block";
+
+  } else {
+
+    document.getElementById("error-message").classList.remove("hidden");
+
+  }
+}
+</script>
+
+</body>
 </body>
 </html>
