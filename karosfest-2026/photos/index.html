@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Photos</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery-bundle.min.css">
+
+<style>
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+</style>
+</head>
+
+<body class="bg-neutral-50 text-neutral-800 font-sans">
+
+<section class="py-16 px-6">
+
+<div class="max-w-6xl mx-auto">
+
+<h1 class="text-3xl font-light text-center mb-6">
+Photos
+</h1>
+
+<p class="text-center text-neutral-600 mb-12">
+A few memories from the party
+</p>
+
+<div id="lightgallery"
+     class="gallery grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+<!-- Photo 1 -->
+<a href="images/photo01.jpg">
+  <img src="images/photo01.jpg" alt="">
+</a>
+
+<!-- Photo 2 -->
+<a href="images/photo02.jpg">
+  <img src="images/photo02.jpg" alt="">
+</a>
+
+<!-- Photo 3 -->
+<a href="images/photo03.jpg">
+  <img src="images/photo03.jpg" alt="">
+</a>
+
+<!-- Continue through photo90.jpg -->
+
+</div>
+
+<div class="text-center mt-12">
+<a href="/karosfest-2026/"
+   class="underline text-neutral-500">
+Back to event page
+</a>
+</div>
+
+</div>
+
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/lightgallery.min.js"></script>
+
+<script>
+lightGallery(document.getElementById('lightgallery'), {
+    speed: 300,
+    download: false,
+    counter: true
+});
+</script>
+
+</body>
+</html>
