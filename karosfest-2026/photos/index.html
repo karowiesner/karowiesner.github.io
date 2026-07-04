@@ -1,146 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Photos – Karo's Fest 2026</title>
+
+    <meta name="robots" content="noindex, nofollow">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery-bundle.min.css"
+    />
 
     <style>
-  #protected-content {
-    display: none;
-  }
-</style>
-    
-<meta charset="UTF-8">
-<title>Photos</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="robots" content="noindex, nofollow">
-<script src="https://cdn.tailwindcss.com"></script>
-
-<link rel="stylesheet"
-href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery-bundle.min.css">
-
-<style>
-.gallery img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-</style>
+        #protected-content {
+            display: none;
+        }
+    </style>
 </head>
+<body class="bg-white text-neutral-800">
 
-<body class="bg-neutral-50 text-neutral-800 font-sans">
+    <!-- PASSWORD SCREEN -->
+    <div
+        id="password-screen"
+        class="min-h-screen flex items-center justify-center px-6"
+    >
+        <div class="max-w-md w-full text-center">
 
-<!-- Password Screen -->
-<div id="password-screen"
-     class="min-h-screen flex items-center justify-center bg-white px-6">
+            <h1 class="text-3xl font-light mb-6">
+                Photo Gallery
+            </h1>
 
-  <div class="text-center max-w-sm w-full">
+            <p class="text-neutral-600 mb-8">
+                Please enter the password to view the photos.
+            </p>
 
-    <h1 class="text-2xl mb-6 font-light">
-      Photo Gallery
-    </h1>
+            <input
+                type="password"
+                id="password-input"
+                placeholder="Password"
+                class="w-full border border-neutral-300 rounded px-4 py-3 mb-4"
+            >
 
-    <input
-      id="password-input"
-      type="password"
-      placeholder="Enter password"
-      class="border px-4 py-3 w-full mb-4 rounded">
+            <button
+                onclick="checkPassword()"
+                class="w-full bg-neutral-900 text-white px-6 py-3 rounded hover:bg-neutral-700 transition"
+            >
+                Enter
+            </button>
 
-    <button
-      onclick="checkPassword()"
-      class="bg-neutral-800 text-white px-6 py-3 rounded w-full">
-      Enter
-    </button>
+            <p
+                id="error-message"
+                class="hidden text-red-600 mt-4"
+            >
+                Incorrect password.
+            </p>
 
-    <p id="error-message"
-       class="text-red-500 text-sm mt-3 hidden">
-      Incorrect password
-    </p>
+        </div>
+    </div>
 
-  </div>
+    <!-- PROTECTED CONTENT -->
+    <div id="protected-content">
 
-</div>
+        <section class="max-w-6xl mx-auto px-6 py-16">
 
-<!-- Protected Content -->
-<div id="protected-content">
+            <h1 class="text-4xl font-light text-center mb-4">
+                Photos
+            </h1>
 
-<section class="py-16 px-6">
+            <p class="text-center text-neutral-600 mb-12">
+                Memories from Karo's Fest
+            </p>
 
-<div class="max-w-6xl mx-auto">
+            <div
+                id="lightgallery"
+                class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+            >
 
-<h1 class="text-3xl font-light text-center mb-6">
-Photos
-</h1>
+                <a href="images/photo01.jpg">
+                    <img
+                        src="images/photo01.jpg"
+                        alt=""
+                        class="w-full h-72 object-cover rounded"
+                    >
+                </a>
 
-<p class="text-center text-neutral-600 mb-12">
-A few memories from the party
-</p>
+                <a href="images/photo02.jpg">
+                    <img
+                        src="images/photo02.jpg"
+                        alt=""
+                        class="w-full h-72 object-cover rounded"
+                    >
+                </a>
 
-<div id="lightgallery"
-     class="gallery grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <a href="images/photo03.jpg">
+                    <img
+                        src="images/photo03.jpg"
+                        alt=""
+                        class="w-full h-72 object-cover rounded"
+                    >
+                </a>
 
-<!-- Photo 1 -->
-<a href="images/photo01.jpg">
-  <img src="images/photo01.jpg" alt="">
-</a>
+                <!-- Add more photos here -->
 
-<!-- Photo 2 -->
-<a href="images/photo02.jpg">
-  <img src="images/photo02.jpg" alt="">
-</a>
+            </div>
 
-<!-- Photo 3 -->
-<a href="images/photo03.jpg">
-  <img src="images/photo03.jpg" alt="">
-</a>
-
-<!-- Continue through photo90.jpg -->
-
-</div>
-
-<div class="text-center mt-12">
-<a href="/karosfest-2026/"
-   class="underline text-neutral-500">
-Back to event page
-</a>
-</div>
-
-</div>
-
-</section>
-
-<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/lightgallery.min.js"></script>
-
-<script>
-lightGallery(document.getElementById('lightgallery'), {
-    speed: 300,
-    download: false,
-    counter: true
-});
-</script>
+        </section>
 
     </div>
 
-<script>
-function checkPassword() {
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/lightgallery.min.js"></script>
 
-  const password = "KaroFest2026";   // CHANGE THIS
+    <script>
+        function showContent() {
+            document.getElementById("password-screen").style.display = "none";
+            document.getElementById("protected-content").style.display = "block";
 
-  const input =
-    document.getElementById("password-input").value;
+            lightGallery(document.getElementById("lightgallery"), {
+                speed: 300,
+                download: false,
+                counter: true
+            });
+        }
 
-  if (input === password) {
+        function checkPassword() {
+            const password = "sauerteigbrot";
+            const input = document.getElementById("password-input").value;
 
-    document.getElementById("password-screen").style.display = "none";
+            if (input === password) {
 
-    document.getElementById("protected-content").style.display = "block";
+                localStorage.setItem("karosFestAccess", "granted");
 
-  } else {
+                showContent();
 
-    document.getElementById("error-message").classList.remove("hidden");
+            } else {
 
-  }
-}
-</script>
+                document
+                    .getElementById("error-message")
+                    .classList.remove("hidden");
 
-</body>
+            }
+        }
+
+        window.onload = function () {
+
+            if (
+                localStorage.getItem("karosFestAccess") === "granted"
+            ) {
+                showContent();
+            }
+
+        };
+    </script>
+
 </body>
 </html>
