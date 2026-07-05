@@ -17,44 +17,56 @@
 <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-neutral-50 flex items-center justify-center min-h-screen px-6">
+<body class="bg-neutral-50 min-h-screen px-6">
 
-     <section class="py-16 px-6 border-t text-center">
+    <div class="max-w-md w-full mx-auto py-16 flex flex-col gap-12">
 
-<h2 class="text-2xl font-medium mb-6">
-Photos
-</h2>
+        <section class="text-center">
 
-<p class="text-neutral-600 mb-6">
-Photos from the party -- coming soon
-</p>
+    <h2 class="text-2xl font-medium mb-6">
+        Party Photos
+    </h2>
 
-<a href="/karosfest-2026/photos/"
-class="inline-block border border-neutral-800 px-6 py-3 rounded-full hover:bg-neutral-800 hover:text-white transition">
-Open Gallery
-</a>
+    <p class="text-neutral-600 mb-6">
+        Browse memories from Karo's Fest.
+    </p>
+
+    <a href="/karosfest-2026/photos/"
+       class="inline-block border border-neutral-800 px-6 py-3 rounded-full hover:bg-neutral-800 hover:text-white transition">
+        View Photos
+    </a>
 
 </section>
 
-<div class="max-w-md w-full flex flex-col gap-6">
+        <div>
 
-     <h1 class="text-center text-2xl font-light mb-6">
-Wähle eine Sprache / Select a language
-</h1>
+            <h1 class="text-center text-2xl font-light mb-6">
+                Wähle eine Sprache / Select a language
+            </h1>
 
-<a href="/karosfest-2026/en/">
-<img src="/karosfest-2026/images/Invitation.png"
-     alt="English"
-     class="w-full rounded-xl shadow hover:opacity-90 transition">
-</a>
+            <div class="flex flex-col gap-6">
 
-<a href="/karosfest-2026/de/">
-<img src="/karosfest-2026/images/Einladung.png"
-     alt="Deutsch"
-     class="w-full rounded-xl shadow hover:opacity-90 transition">
-</a>
+                <a href="/karosfest-2026/en/">
+                    <img
+                        src="/karosfest-2026/images/Invitation.png"
+                        alt="English"
+                        class="w-full rounded-xl shadow hover:opacity-90 transition"
+                    >
+                </a>
 
-</div>
+                <a href="/karosfest-2026/de/">
+                    <img
+                        src="/karosfest-2026/images/Einladung.png"
+                        alt="Deutsch"
+                        class="w-full rounded-xl shadow hover:opacity-90 transition"
+                    >
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </body>
 </html>
