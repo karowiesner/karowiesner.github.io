@@ -1,0 +1,15 @@
+positions:
+  - { years: "2021 –", title: "Professor (Chair) of Complexity Science", place: "University of Potsdam" }
+  - { years: "2018", title: "Visiting Research Professor", place: "Potsdam Institute for Climate Impact Research" }
+  - { years: "2017 –", title: "External Faculty", place: "Complexity Science Hub Vienna" }
+  - { years: "2016 – 2021", title: "Associate Professor", place: "University of Bristol" }
+  - { years: "2010", title: "Visiting Research Professor", place: "Lund University" }
+  - { years: "2007 – 2018", title: "Co-Director", place: "Bristol Centre for Complexity Sciences" }
+  - { years: "2007 – 2016", title: "Assistant Professor", place: "University of Bristol" }
+  - { years: "2004 – 2006", title: "Postdoctoral Fellow", place: "University of California, Davis, and Santa Fe Institute" }
+education:
+  - { years: "2004", title: "PhD in Physics", place: "Uppsala University" }
+  - { years: "2000", title: "MSc in Physics", place: "Heidelberg University and Uppsala University" }
+editorial:
+  - { title: "Associate Editor", place: "Entropy" }
+  - { title: "Associate Editor", place: "Advances in Complex Systems" }

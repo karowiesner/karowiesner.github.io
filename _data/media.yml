@@ -1,0 +1,50 @@
+- section: Radio and podcasts
+  items:
+    - title: '"Simplifying Complexity" podcast with Sean Brady'
+      outlet: Episode 3 and following, about 30 min
+      date: Dec 2022
+      link: ""
+    - title: BBC World Service, Science Show
+      outlet: Interview starts at minute 19
+      date: Mar 2019
+      link: https://www.bbc.co.uk/sounds/play/w3cswmqf
+    - title: "Democracy under threat: a mathematician's perspective"
+      outlet: Physics World podcast, Institute of Physics, 30 min
+      date: Mar 2019
+      link: https://physicsworld.com/a/democracy-under-threat-a-mathematicians-perspective/
+- section: Print and online interviews
+  items:
+    - title: 33 questions to Prof. Dr. Karoline Wiesner
+      outlet: University of Potsdam magazine (German and English)
+      date: 2022
+      link: https://www.uni-potsdam.de/en/headlines-and-featured-stories/detail/2022-08-11-33-questions-to-prof-dr-karoline-wiesner
+    - title: Jahrtausend der Komplexität
+      outlet: Handelsblatt magazine "Ada" (German)
+      date: Aug 2020
+      link: https://join-ada.com/themenseiten/jahrtausend-der-komplexitaet
+- section: Talks on video
+  items:
+    - title: "Von Atomen, Ameisen und Aktien. Die Wissenschaft komplexer Systeme"
+      outlet: Einstein Forum Potsdam
+      date: 2022
+      link: ""
+    - title: Colloquium
+      outlet: Universidad Nacional Autónoma de México
+      date: 2021
+      link: ""
+    - title: Complexity Science Hub Vienna faculty meeting
+      outlet: CSH Vienna
+      date: 2018
+      link: ""
+    - title: International Conference on Entropy
+      outlet: Conference talk
+      date: 2017
+      link: ""
+    - title: TEDx talk
+      outlet: TEDx
+      date: 2016
+      link: ""
+    - title: TEDx talk
+      outlet: TEDx
+      date: 2015
+      link: ""

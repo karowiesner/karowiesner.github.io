@@ -1,0 +1,17 @@
+title: Karoline Wiesner
+tagline: Professor of Complexity Science
+description: Karoline Wiesner, Professor of Complexity Science at the University of Potsdam. Head of the Complexity Science research group.
+url: "https://www.karowiesner.org"
+baseurl: ""
+lang: en
+email: karoline.wiesner@uni-potsdam.de
+scholar: "https://scholar.google.co.uk/citations?user=TUL8h7QAAAAJ&hl=en"
+group_url: "https://www.uni-potsdam.de/en/complexity-science"
+markdown: kramdown
+exclude: [README.md, Gemfile, Gemfile.lock, vendor]
+# Profile photo: put the file in assets/img/ and write its path here,
+# e.g. photo: /assets/img/karoline-wiesner.jpg  (leave "" for no photo)
+photo: /assets/img/karoline-wiesner.jpg
+book_cover: /assets/img/book-cover.jpg
+reading_sample: /assets/files/what-is-a-complex-system-reading-sample.pdf
+book_url: "https://yalebooks.yale.edu/book/9780300251104/what-complex-system"

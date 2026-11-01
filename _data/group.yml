@@ -1,0 +1,30 @@
+# Add "photo: /assets/img/group/name.jpg" and "link:" to any member if you like.
+lead:
+  - name: Prof. Dr. Karoline Wiesner
+    role: Group leader
+    topic: Complexity science, information theory, dynamics of democracy
+postdocs:
+  - name: Dr. Björn Ladewig
+    role: Postdoctoral researcher
+    topic: ""
+  - name: Dr. Vaishnavi Jayakumar
+    role: Postdoctoral researcher
+    topic: ""
+phd:
+  - name: Talha Ersoy
+    role: PhD student
+    topic: Machine learning of complex systems laws
+  - name: Paula Parker Diaz
+    role: PhD student
+    topic: Dynamics of democracy
+msc:
+  - name: Sönke Beier
+    role: MSc student
+    topic: Dynamics of democracy
+  - name: Lea Faber
+    role: MSc student
+    topic: Machine learning with information theory
+  - name: Moritz Itzerott
+    role: MSc student
+    topic: The cosmic web
+alumni: []

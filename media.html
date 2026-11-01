@@ -1,0 +1,16 @@
+---
+layout: page
+title: Media
+lead: Interviews, podcasts and recorded talks.
+---
+{% for s in site.data.media %}
+<h2>{{ s.section }}</h2>
+<ul class="media-list">
+  {% for i in s.items %}
+  <li>
+    <span>{% if i.link != "" %}<a href="{{ i.link }}">{{ i.title }}</a>{% else %}{{ i.title }}{% endif %}<span class="meta">{{ i.outlet }}</span></span>
+    <span class="date">{{ i.date }}</span>
+  </li>
+  {% endfor %}
+</ul>
+{% endfor %}

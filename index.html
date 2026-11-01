@@ -1,12 +1,53 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="robots" content="noindex, nofollow">
-    <title>My Website</title>
-</head>
-<body>
-    <h1>Welcome to My Website</h1>
-    <p>This is my homepage.</p>
+---
+layout: default
+description: Karoline Wiesner, Professor of Complexity Science at the University of Potsdam. Research on information theory for complex systems, the dynamics of democracy and neural networks.
+---
+<section class="hero">
+  <div class="wrap{% if site.photo != "" %} hero-grid{% endif %}">
+    {% if site.photo != "" %}<img class="hero-photo" src="{{ site.photo | relative_url }}" alt="Portrait of Karoline Wiesner" width="260" height="260">{% endif %}
+    <div>
+      <p class="kicker">University of Potsdam</p>
+      <h1>Karoline Wiesner</h1>
+      <p class="role">Professor of Complexity Science</p>
+      <p class="affil">I lead the <a href="{{ site.group_url }}">Complexity Science research group</a> at the <a href="https://www.uni-potsdam.de/en/physik">Institute of Physics and Astronomy</a>, University of Potsdam. I am also External Faculty at the <a href="https://csh.ac.at">Complexity Science Hub Vienna</a> and an affiliated member of the <a href="http://www.bris.ac.uk/philosophy/csp/">Centre for Science and Philosophy</a> at the University of Bristol.</p>
+      <div class="buttons">
+        <a class="btn primary" href="{{ '/research.html' | relative_url }}">Research</a>
+        <a class="btn" href="{{ '/publications.html' | relative_url }}">Publications</a>
+        <a class="btn" href="{{ '/group.html' | relative_url }}">Join the group</a>
+        <a class="btn" href="mailto:{{ site.email }}">Email</a>
+      </div>
+    </div>
+  </div>
+</section>
 
-</body>
-</html>
+<section class="section">
+  <div class="wrap">
+    <div class="section-head"><h2>Research</h2><a class="more" href="{{ '/research.html' | relative_url }}">More about our research</a></div>
+    {% include research-cards.html %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap two-col">
+    <div>
+      <div class="section-head"><h2>News</h2><a class="more" href="{{ '/news.html' | relative_url }}">All news</a></div>
+      {% assign latest = site.data.news | slice: 0, 5 %}
+      {% include news-list.html items=latest %}
+    </div>
+    <aside class="info">
+      <h3>Group meetings</h3>
+      <p>Winter term 2025. Visitors are very welcome.</p>
+      <dl>
+        <dt>Fri 9:45</dt><dd>Coffee morning</dd>
+        <dt>Fri 10:15</dt><dd>Discussion meeting or seminar</dd>
+        <dt>Rooms</dt><dd>2.28.1.084 (discussions)<br>2.28.0.108 (seminars)</dd>
+      </dl>
+    </aside>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    {% include book-feature.html %}
+  </div>
+</section>

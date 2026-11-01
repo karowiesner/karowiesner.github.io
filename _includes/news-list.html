@@ -1,0 +1,9 @@
+<ol class="news">
+{% for n in include.items %}
+  {% assign d = n.date | append: "-01" %}
+  <li>
+    <time datetime="{{ n.date }}">{{ d | date: "%b %Y" }}</time>
+    <span>{% if n.link and n.link != "" %}<a href="{{ n.link | relative_url }}">{{ n.text }}</a>{% else %}{{ n.text }}{% endif %}</span>
+  </li>
+{% endfor %}
+</ol>

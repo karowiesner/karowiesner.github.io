@@ -1,0 +1,8 @@
+- { title: Home, url: / }
+- { title: Research, url: /research.html }
+- { title: Publications, url: /publications.html }
+- { title: Group, url: /group.html }
+- { title: Teaching, url: /teaching.html }
+- { title: Book, url: /what-is-a-complex-system.html }
+- { title: Media, url: /media.html }
+- { title: About, url: /about.html }

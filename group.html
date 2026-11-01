@@ -1,0 +1,27 @@
+---
+layout: page
+title: Group
+kicker: University of Potsdam
+lead: Members of the research group "Complexity Science" at the Institute of Physics and Astronomy.
+---
+{% assign g = site.data.group %}
+<h2>Group leader</h2>
+<ul class="people">{% for p in g.lead %}{% include person.html p=p %}{% endfor %}</ul>
+{% if g.postdocs.size > 0 %}<h2>Postdoctoral researchers</h2>
+<ul class="people">{% for p in g.postdocs %}{% include person.html p=p %}{% endfor %}</ul>{% endif %}
+{% if g.phd.size > 0 %}<h2>PhD students</h2>
+<ul class="people">{% for p in g.phd %}{% include person.html p=p %}{% endfor %}</ul>{% endif %}
+{% if g.msc.size > 0 %}<h2>MSc students</h2>
+<ul class="people">{% for p in g.msc %}{% include person.html p=p %}{% endfor %}</ul>{% endif %}
+{% if g.alumni.size > 0 %}<h2>Alumni</h2>
+<ul class="people">{% for p in g.alumni %}{% include person.html p=p %}{% endfor %}</ul>{% endif %}
+
+<h2>Meetings</h2>
+<div class="info prose">
+  <dl>
+    <dt>Fri 9:45</dt><dd>Coffee morning</dd>
+    <dt>Fri 10:15</dt><dd>Discussion meeting or seminar</dd>
+    <dt>Rooms</dt><dd>2.28.1.084 (discussions), 2.28.0.108 (seminars)</dd>
+  </dl>
+  <p style="margin:12px 0 0">Visitors are welcome. Interested in joining? <a href="mailto:{{ site.email }}">Send me an email</a>.</p>
+</div>

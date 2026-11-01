@@ -1,0 +1,58 @@
+# Newest first. "link" is optional. The home page shows the first 5.
+- date: 2025-01
+  text: Dr. Björn Ladewig joins the team.
+- date: 2024-12
+  text: Dr. Vaishnavi Jayakumar joins the team.
+- date: 2024-11
+  text: New results on the dynamics of democracy posted on arXiv.
+  link: https://arxiv.org/abs/2411.11484
+- date: 2024-10
+  text: Paper on the principal components of electoral regimes published in Royal Society Open Science.
+  link: https://royalsocietypublishing.org/doi/10.1098/rsos.240262
+- date: 2024-09
+  text: Invited and contributed talks at the Conference on Complex Systems, Exeter.
+  link: https://ccs24.cssociety.org/
+- date: 2024-03
+  text: Focus session "Statistical Physics of Political Systems" at the DPG Spring Meeting, Berlin.
+  link: https://www.dpg-verhandlungen.de/year/2024/conference/berlin/part/soe/session/20
+- date: 2023-10
+  text: New MSc course "Machine Learning for Physicists".
+  link: /teaching.html
+- date: 2023-08
+  text: Talha Ersoy and Paula Parker Diaz start as PhD students.
+- date: 2023-05
+  text: Inaugural lecture (Antrittsvorlesung) at the University of Potsdam.
+  link: https://www.uni-potsdam.de/de/mnfakul/veranstaltungen/detail/2023-05-31-antrittsvorlesung-prof-dr-karoline-wiesner
+- date: 2023-05
+  text: Award for Excellence in Teaching.
+- date: 2023-04
+  text: New course "Complexity Science" begins.
+  link: /teaching.html
+- date: 2023-03
+  text: '"The hidden dimension in democracy" released as a V-Dem working paper.'
+  link: https://www.v-dem.net/media/publications/wp_137.pdf
+- date: 2022-12
+  text: Conversation about the book on the "Simplifying Complexity" podcast.
+  link: /media.html
+- date: 2022-10
+  text: Applications open for the Amsterdam Winter Workshop on Complex Systems 2023.
+  link: https://wwcs2023.github.io
+- date: 2022-09
+  text: Paper on degree entropies and network robustness featured on the cover of Entropy.
+  link: https://www.mdpi.com/1099-4300/24/9
+- date: 2022-09
+  text: Book presentation and workshop at the Amsterdam Institute for Advanced Studies.
+- date: 2022-05
+  text: Public lecture at the Einstein Forum Potsdam.
+  link: https://www.einsteinforum.de/veranstaltungen/von-atomen-ameisen-und-aktien-die-wissenschaft-komplexer-systeme/
+- date: 2022-01
+  text: '"Stability of democracies: a complex systems perspective" is the second most read article in the European Journal of Physics.'
+  link: https://iopscience.iop.org/article/10.1088/1361-6404/aaeb4d
+- date: 2021-04
+  text: Took up the Chair in Complexity Science at the University of Potsdam.
+- date: 2020-12
+  text: '"What is a complex system?" reviewed in Nature.'
+  link: https://www.nature.com/articles/d41586-020-03463-2
+- date: 2020-11
+  text: Report for the Green Climate Fund on bridging complexity science and evaluation.
+  link: https://ieu.greenclimate.fund/document/how-bridge-gap-between-complexity-science-and-evaluation
