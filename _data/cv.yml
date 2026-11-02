@@ -10,6 +10,6 @@ positions:
 education:
   - { years: "2004", title: "PhD in Physics", place: "Uppsala University" }
   - { years: "2000", title: "MSc in Physics", place: "Heidelberg University and Uppsala University" }
-editorial:
-  - { title: "Associate Editor", place: "Entropy" }
-  - { title: "Associate Editor", place: "Advances in Complex Systems" }
+service:
+  - { years: "Current", title: "Vice Chair, Section Social and Economic Systems", place: "German Physical Society (DPG)" }
+  - { years: "Current", title: "Member of the Steering Group", place: "Leibniz ScienceCampus SCALES", link: "https://www.leibniz-gemeinschaft.de/forschung/forschung-im-verbund/leibniz-wissenschaftscampi/scales" }

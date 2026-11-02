@@ -1,6 +1,6 @@
 ---
 layout: default
-description: Karoline Wiesner, Professor of Complexity Science at the University of Potsdam. Research on information theory for complex systems, the dynamics of democracy and neural networks.
+description: Karoline Wiesner, Professor of Complexity Science at the University of Potsdam. Research on the dynamics of democracy and neural networks as complex systems.
 ---
 <section class="hero">
   <div class="wrap{% if site.photo != "" %} hero-grid{% endif %}">
@@ -9,7 +9,7 @@ description: Karoline Wiesner, Professor of Complexity Science at the University
       <p class="kicker">University of Potsdam</p>
       <h1>Karoline Wiesner</h1>
       <p class="role">Professor of Complexity Science</p>
-      <p class="affil">I lead the <a href="{{ site.group_url }}">Complexity Science research group</a> at the <a href="https://www.uni-potsdam.de/en/physik">Institute of Physics and Astronomy</a>, University of Potsdam. I am also External Faculty at the <a href="https://csh.ac.at">Complexity Science Hub Vienna</a> and an affiliated member of the <a href="http://www.bris.ac.uk/philosophy/csp/">Centre for Science and Philosophy</a> at the University of Bristol.</p>
+      <p class="affil">I lead the <a href="{{ site.group_url }}">Complexity Science research group</a> at the <a href="https://www.uni-potsdam.de/en/physik">Institute of Physics and Astronomy</a>, University of Potsdam. I am also External Faculty at the <a href="https://csh.ac.at">Complexity Science Hub Vienna</a>.</p>
       <div class="buttons">
         <a class="btn primary" href="{{ '/research.html' | relative_url }}">Research</a>
         <a class="btn" href="{{ '/publications.html' | relative_url }}">Publications</a>
@@ -28,21 +28,12 @@ description: Karoline Wiesner, Professor of Complexity Science at the University
 </section>
 
 <section class="section">
-  <div class="wrap two-col">
-    <div>
-      <div class="section-head"><h2>News</h2><a class="more" href="{{ '/news.html' | relative_url }}">All news</a></div>
-      {% assign latest = site.data.news | slice: 0, 5 %}
-      {% include news-list.html items=latest %}
+  <div class="wrap">
+    <div class="info meetings">
+      <h2>Group meetings</h2>
+      <p>Winter term 2026. Visitors are very welcome.</p>
+      {% include meetings.html %}
     </div>
-    <aside class="info">
-      <h3>Group meetings</h3>
-      <p>Winter term 2025. Visitors are very welcome.</p>
-      <dl>
-        <dt>Fri 9:45</dt><dd>Coffee morning</dd>
-        <dt>Fri 10:15</dt><dd>Discussion meeting or seminar</dd>
-        <dt>Rooms</dt><dd>2.28.1.084 (discussions)<br>2.28.0.108 (seminars)</dd>
-      </dl>
-    </aside>
   </div>
 </section>
 

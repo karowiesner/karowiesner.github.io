@@ -153,3 +153,14 @@ a.card:hover { border-color: var(--accent); transform: translateY(-2px); }
 .footer-name { color: var(--ink); font-weight: 600; margin-bottom: .3em; }
 .footer-links { display: flex; flex-direction: column; gap: 6px; }
 .footer-small { margin-top: 24px; font-size: .82rem; }
+.meetings { padding: 32px 36px; }
+.meetings h2 { margin-bottom: .3em; }
+@media (max-width: 560px) { .meetings { padding: 24px; } .info dl { grid-template-columns: 1fr; gap: 0; } .info dd { margin-bottom: 10px; } }
+.pubs { list-style: none; padding: 0; margin: 0; max-width: 52em; }
+.pubs li { padding: 14px 0; border-bottom: 1px solid var(--line); }
+.pubs li:last-child { border-bottom: 0; }
+.pub-title { display: block; font-weight: 500; color: var(--ink); text-decoration-color: var(--line); }
+.pub-title:hover { color: var(--accent); text-decoration-color: currentColor; }
+.pub-authors, .pub-venue { display: block; font-size: .93rem; color: var(--muted); }
+.pub-authors strong { color: var(--ink); font-weight: 600; }
+.pub-venue { font-style: italic; }

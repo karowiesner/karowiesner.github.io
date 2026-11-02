@@ -2,8 +2,12 @@
 lead:
   - name: Prof. Dr. Karoline Wiesner
     role: Group leader
-    topic: Complexity science, information theory, dynamics of democracy
+    topic: Physics of machine learning, dynamics of political systems, applied information theory, foundations of complexity science
 postdocs:
+  - name: Dr. Radost Waszkiewicz
+    role: Postdoctoral scholar, Humboldt Fellow
+    topic: ""
+    link: https://radostw.github.io/
   - name: Dr. Björn Ladewig
     role: Postdoctoral researcher
     topic: ""
@@ -13,18 +17,27 @@ postdocs:
 phd:
   - name: Talha Ersoy
     role: PhD student
-    topic: Machine learning of complex systems laws
-  - name: Paula Parker Diaz
+    topic: Physics of machine learning
+  - name: Paula Pirker-Díaz
     role: PhD student
     topic: Dynamics of democracy
 msc:
-  - name: Sönke Beier
+  - name: Lilly Böll
+    role: MSc student (Uni Bonn)
+    topic: Dynamics of corruption
+  - name: Teresa d'Orsi Barreto
     role: MSc student
-    topic: Dynamics of democracy
-  - name: Lea Faber
+    topic: Machine learning for hydrology
+  - name: Jonas Müller
     role: MSc student
-    topic: Machine learning with information theory
-  - name: Moritz Itzerott
-    role: MSc student
-    topic: The cosmic web
+    topic: Thermodynamics of machine learning
+  - name: Valentin Ruhrberg
+    role: MSc student (FU Berlin)
+    topic: Statistical physics of political regimes
+  - name: Marius Walter
+    role: MSc student (FU Berlin)
+    topic: Physics of transfer learning
+  - name: Magdalena Živković
+    role: MSc student (FU Berlin)
+    topic: Migration models
 alumni: []

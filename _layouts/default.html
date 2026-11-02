@@ -27,6 +27,10 @@
   </main>
   {% include footer.html %}
   <script>
+    // Open links to other websites in a new tab
+    document.querySelectorAll('a[href^="http"]').forEach(function (a) {
+      if (a.hostname !== location.hostname) { a.target = '_blank'; a.rel = 'noopener'; }
+    });
     (function () {
       var b = document.querySelector('.nav-toggle'), n = document.getElementById('site-nav');
       if (!b || !n) return;

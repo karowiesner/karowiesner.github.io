@@ -1,0 +1,92 @@
+# Publications since 2021, newest first. Add new entries at the top.
+# type: article | preprint | chapter | conference
+- year: 2026
+  authors: Ibrahim Talha Ersoy, Andrés Fernando Cardozo Licha, Karoline Wiesner
+  title: Phase transitions reveal hierarchical structure in deep neural networks
+  venue: Communications AI & Computing
+  link: https://doi.org/10.1038/s44488-026-00021-z
+- year: 2026
+  authors: Sabin Roman, Vaishnavi Jayakumar, Karoline Wiesner
+  title: A generalized Gompertz law for the rise and fall of empires
+  venue: Journal of Physics Complexity
+  link: https://doi.org/10.48550/arxiv.2608.29202
+- year: 2026
+  authors: Björn Ladewig, Ibrahim Talha Ersoy, Karoline Wiesner
+  title: "Cascading through the hierarchy: regularizer-induced feature detection as phase transitions in deep linear neural networks"
+  venue: arXiv preprint
+  link: https://doi.org/10.48550/arxiv.2608.06597
+- year: 2026
+  authors: Ibrahim Talha Ersoy, Karoline Wiesner
+  title: Noise-driven escape from metastable phases explains grokking in deep neural networks
+  venue: ICML Workshop on High-dimensional Learning Dynamics
+  link: https://doi.org/10.48550/arxiv.2606.17120
+- year: 2026
+  authors: David Strahl, Urmi Ninad, Sebastian J. Gnann, Karoline Wiesner, Thorsten Wagener
+  title: Causal analysis of streamflow, evapotranspiration and snow dynamics in large sample hydrology
+  venue: Research Square preprint
+  link: https://doi.org/10.21203/rs.3.rs-9105235/v1
+- year: 2026
+  authors: Joshua Uhlig, Paula Pirker-Díaz, Matthew W. Wilson, Ralf Metzler, Karoline Wiesner
+  title: Critical dynamics govern the evolution of political regimes
+  venue: Communications Physics
+  link: https://doi.org/10.48550/arxiv.2603.05994
+- year: 2026
+  authors: Sönke Beier, Paula Pirker-Díaz, Friedrich Pagenkopf, Ibrahim Talha Ersoy, Karoline Wiesner
+  title: "Nonlinear dimensionality reduction with diffusion maps: guidance for practical applications and interpretation"
+  venue: IEEE Access
+  link: https://doi.org/10.1109/access.2026.3746320
+- year: 2025
+  authors: Paula Pirker-Díaz, Matthew Charles Wilson, Sönke Beier, Karoline Wiesner
+  title: "Scaling laws of political regime dynamics: stability of democracies and autocracies in the twentieth century"
+  venue: Royal Society Open Science
+  link: https://doi.org/10.1098/rsos.250457
+- year: 2024
+  authors: Karoline Wiesner
+  title: Political systems as complex, statistical systems – unravelling the role of diversity and feedback for stability
+  venue: Book chapter, World Scientific
+  link: https://doi.org/10.1142/9789819800827_0004
+- year: 2024
+  authors: Karoline Wiesner, Samuel Bien, Matthew Charles Wilson
+  title: "The principal components of electoral regimes: separating autocracies from pseudo-democracies"
+  venue: Royal Society Open Science
+  link: https://doi.org/10.1098/rsos.240262
+- year: 2024
+  authors: Karoline Wiesner
+  title: The role of unpredictability in the formation and maintenance of complex systems
+  venue: Journal of Physics Conference Series
+  link: https://doi.org/10.1088/1742-6596/2877/1/012088
+- year: 2024
+  authors: Karoline Wiesner, Jyotsna Puri, Andreas Reumann
+  title: "'Complexity-aware' monitoring and evaluation of development programs: anchoring them in complexity science"
+  venue: Advances in Complex Systems
+  link: https://doi.org/10.1142/s0219525924400046
+- year: 2024
+  authors: Chris Jones, Damaris Zurell, Karoline Wiesner
+  title: Novel analytic methods for predicting extinctions in ecological networks
+  venue: Ecological Monographs
+  link: https://doi.org/10.1002/ecm.1601
+- year: 2023
+  authors: Karoline Wiesner
+  title: "Learning from small urban nations: the importance of randomness and feedback for democratic stability"
+  venue: Book chapter, Edward Elgar Publishing
+  link: https://doi.org/10.4337/9781803923055.00012
+- year: 2023
+  authors: Chris Jones, Karoline Wiesner
+  title: Improving mean-field network percolation models with neighbourhood information
+  venue: Journal of Complex Networks
+  link: https://doi.org/10.1093/comnet/cnad029
+- year: 2023
+  authors: Matthew Charles Wilson, Karoline Wiesner, Samuel Bien
+  title: The hidden dimension in democracy
+  venue: V-Dem working paper / SSRN
+  link: https://doi.org/10.2139/ssrn.4453098
+- year: 2022
+  authors: Chris Jones, Karoline Wiesner
+  title: Clarifying how degree entropies and degree-degree correlations relate to network robustness
+  venue: Entropy
+  link: https://doi.org/10.3390/e24091182
+- year: 2021
+  authors: Karoline Wiesner, James Ladyman
+  title: Complex systems are always correlated but rarely information processing
+  venue: Journal of Physics Complexity
+  link: https://doi.org/10.1088/2632-072x/ac371c

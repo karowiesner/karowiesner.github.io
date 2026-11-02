@@ -9,8 +9,8 @@ lead: Karoline Wiesner is Professor of Complexity Science at the University of P
     <ul class="timeline">{% for i in site.data.cv.positions %}<li><span class="yrs">{{ i.years }}</span><span>{{ i.title }}<span class="place">{{ i.place }}</span></span></li>{% endfor %}</ul>
     <h2>Education</h2>
     <ul class="timeline">{% for i in site.data.cv.education %}<li><span class="yrs">{{ i.years }}</span><span>{{ i.title }}<span class="place">{{ i.place }}</span></span></li>{% endfor %}</ul>
-    <h2>Editorial roles</h2>
-    <ul class="timeline">{% for i in site.data.cv.editorial %}<li><span class="yrs">Editor</span><span>{{ i.title }}<span class="place"><em>{{ i.place }}</em></span></span></li>{% endfor %}</ul>
+    <h2>Service</h2>
+    <ul class="timeline">{% for i in site.data.cv.service %}<li><span class="yrs">{{ i.years }}</span><span>{{ i.title }}<span class="place">{% if i.link %}<a href="{{ i.link }}">{{ i.place }}</a>{% else %}{{ i.place }}{% endif %}</span></span></li>{% endfor %}</ul>
   </div>
   <aside id="contact">
     <h2>Contact</h2>
