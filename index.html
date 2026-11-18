@@ -4,12 +4,12 @@ description: Karoline Wiesner, Professor of Complexity Science at the University
 ---
 <section class="hero">
   <div class="wrap{% if site.photo != "" %} hero-grid{% endif %}">
-    {% if site.photo != "" %}<img class="hero-photo" src="{{ site.photo | relative_url }}" alt="Portrait of Karoline Wiesner" width="260" height="260">{% endif %}
+    {% if site.photo != "" %}<figure class="hero-figure"><img class="hero-photo" src="{{ site.photo | relative_url }}" alt="Portrait of Karoline Wiesner" width="260" height="260"><p class="photo-credit">Photo Éric Guichard</p></figure>{% endif %}
     <div>
       <p class="kicker">University of Potsdam</p>
       <h1>Karoline Wiesner</h1>
       <p class="role">Professor of Complexity Science</p>
-      <p class="affil">I lead the <a href="{{ site.group_url }}">Complexity Science research group</a> at the <a href="https://www.uni-potsdam.de/en/physik">Institute of Physics and Astronomy</a>, University of Potsdam. I am also External Faculty at the <a href="https://csh.ac.at">Complexity Science Hub Vienna</a>.</p>
+      <p class="affil">I lead the <a href="{{ site.group_url }}">Complexity Science research group</a> at the <a href="https://www.uni-potsdam.de/en/physik">Institute of Physics and Astronomy</a>, University of Potsdam. I am co-PI of <a href="https://sciencecampus.aip.de/en/">Leibniz Campus SCALES</a>. I am also External Faculty at the <a href="https://csh.ac.at">Complexity Science Hub Vienna</a>.</p>
       <div class="buttons">
         <a class="btn primary" href="{{ '/research.html' | relative_url }}">Research</a>
         <a class="btn" href="{{ '/publications.html' | relative_url }}">Publications</a>
