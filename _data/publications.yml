@@ -1,6 +1,11 @@
 # Publications since 2021, newest first. Add new entries at the top.
 # type: article | preprint | chapter | conference
 - year: 2026
+  authors: Ibrahim Talha Ersoy, Björn Ladewig, Karoline Wiesner
+  title: Informative Fisher modes in neural networks as a result of explicit symmetry breaking
+  venue: arXiv preprint
+  link: https://arxiv.org/abs/2611.00745
+- year: 2026
   authors: Ibrahim Talha Ersoy, Andrés Fernando Cardozo Licha, Karoline Wiesner
   title: Phase transitions reveal hierarchical structure in deep neural networks
   venue: Communications AI & Computing
@@ -29,7 +34,7 @@
   authors: Joshua Uhlig, Paula Pirker-Díaz, Matthew W. Wilson, Ralf Metzler, Karoline Wiesner
   title: Critical dynamics govern the evolution of political regimes
   venue: Communications Physics
-  link: https://doi.org/10.48550/arxiv.2603.05994
+  link: https://doi.org/10.1038/s42005-026-02937-5
 - year: 2026
   authors: Sönke Beier, Paula Pirker-Díaz, Friedrich Pagenkopf, Ibrahim Talha Ersoy, Karoline Wiesner
   title: "Nonlinear dimensionality reduction with diffusion maps: guidance for practical applications and interpretation"
